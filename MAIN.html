@@ -2,35 +2,41 @@
     <head>
         <title>Warehouse HR</title>
     </head>
-    <body background-image="C:\Users\sarha\OneDrive\Desktop\002.jpg" background-repeat="no-repeat" background-size="cover">
+    <body bgcolor="#F5F5F5" background-image="C:\Users\sarha\OneDrive\Desktop\002.jpg" background-repeat="no-repeat" background-size="cover">
         <!--kbd>Entering to the warehouse attendance and absence</kbd--><hr/>
-        <table align="center">
-            <thead>
-                <th colspan="2"><h2>Warehouse</h2></th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="2" align="center"><h4>Entering to the application</h4></td>
-                </tr>
-                <tr>
-                    <td>USER_NAME:</td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>PASS_WORD:</td>
-                    <td><input type="password"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td align="center"><input type="submit" value="Login" ><input type="submit" value="Exit"></td>
-                </tr>
-            <tfoot>
-                <tr>
-                    <td colspan="2" align="center"><h4>Welcome in yasser sarhan's website</h4></td>
-                </tr>
-            </tfoot>
-        </tbody>
-        </table>
+
+        <form>
+            <table align="center">
+                <thead>
+                    <th colspan="2"><h2>Warehouse</h2></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" align="center"><h4>Entering to the application</h4></td>
+                    </tr>
+                    <tr>
+                        <td>USER_NAME:</td>
+                        <td><input type="text" name="txt_user_name" autocomplete="on" autofocus placeholder="Enter your user name...." required></td>
+                    </tr>
+                    <tr>
+                        <td>PASS_WORD:</td>
+                        <td><input type="password" placeholder="Enter your pass word...." required></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="center"><input type="submit" value="Login" ><input type="submit" value="Exit"></td>
+                    </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="2" align="center"><h4>Welcome in yasser sarhan's website</h4></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><label for="cbx_setting">Do you want to save this settings</label><input type="checkbox" id="cbx_setting"></td>
+                    </tr>
+                </tfoot>
+            </tbody>
+            </table>
+    </form>
 
          <br/>
         <details>
