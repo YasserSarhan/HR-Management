@@ -3,7 +3,7 @@ button {
   align-items: center;
   background-color: #0A66C2;
   border: 2px outset gray;
-  border-radius: 5%;
+  border-radius: 10%;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
