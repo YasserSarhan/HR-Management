@@ -2,8 +2,8 @@
 button {
   align-items: center;
   background-color: #0A66C2;
-  border: 0;
-  border-radius: 100px;
+  border: 2px outset gray;
+  border-radius: 5%;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
